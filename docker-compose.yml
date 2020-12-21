@@ -13,5 +13,9 @@ services:
     image: mongo
     volumes:
       - ./data:/data/db
+      - ./.docker/mongodb/initdb.d:/docker-entrypoint-initdb.d/
     ports:
       - "27017:27017"
+    environment: 
+      MONGO_INITDB_DATABASE: reshawkdb
+    
