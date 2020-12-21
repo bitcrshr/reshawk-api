@@ -12,8 +12,6 @@ RUN npm install -g pm2
 
 RUN npm run build
 
-COPY ./dist ./dist
-
 EXPOSE 3030
 
 CMD ["pm2-runtime", "dist/index.js"]
