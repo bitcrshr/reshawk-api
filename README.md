@@ -1,6 +1,9 @@
-# Reshawk API
+# Reshawk API [ABANDONED]
 
 After cloning, be sure to run `npm i` in the project directory to install project directory.
+
+## This project has been abandoned :(
+After doing a feasibility analysis, I found that it would be very difficult to compete with other software solutions as a solo developer, so this project now serves as a milestone for learning REST API's, JWTs, and Express.js
 
 ## Running for Development
 Make sure that you have Docker Desktop installed. Then, in you project directory, run `docker-compose up mongo -d`. This will start up the MongoDB container for the application and initialize the database with default collections.
